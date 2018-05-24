@@ -13,7 +13,7 @@ class Slide extends React.Component{
             <div className="slide ">
                 <img className="hero" src={this.props.hero} alt={this.props.text}></img>
                 <img className="image" src={this.props.image} alt={this.props.text}></img>
-                <span className="text">{this.props.text}</span>
+                {<p className="text">{this.props.text}</p>}
             </div>
         );
     }

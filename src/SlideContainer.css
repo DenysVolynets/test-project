@@ -16,12 +16,12 @@ div{
     border: solid;  
     width: 930px;
     height: 233px;
-    display : inline-block;
     margin : 100px;
 }
 
 .arrow-button {
     position: absolute;
+    font-size: 30px;
     margin-top: 120px;
     height: 200px;
     width : 40px;

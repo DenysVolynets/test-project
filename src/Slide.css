@@ -1,4 +1,7 @@
 .slide{
+    position: relative;
+    top: 0;
+    left: 0;
     width: 310px;
     height: 233px;
     display: inline-block;
@@ -14,15 +17,21 @@
 .hero{
     position: relative;
     top: 0;
-	left: 0;
+    left: 0;
     width: inherit;
 }
 
 .image{
-    position: absolute;
-    top: 43px;
-    padding: 10px 0 0 0 ;
+    position: relative;
+    bottom: 213px;
+    left: 80px;
+    opacity: 0.8;
 }
 .text{
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
     position: relative;
+    bottom: 100%;
+    left: 80px;
+    width: 150px;
 }

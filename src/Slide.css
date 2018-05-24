@@ -1,0 +1,28 @@
+.slide{
+    width: 310px;
+    height: 233px;
+    display: inline-block;
+}
+
+.clearfix:after {
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+.hero{
+    position: relative;
+    top: 0;
+	left: 0;
+    width: inherit;
+}
+
+.image{
+    position: absolute;
+    top: 43px;
+    padding: 10px 0 0 0 ;
+}
+.text{
+    position: relative;
+}

@@ -60,7 +60,7 @@ class SlideContainer extends React.Component {
         this.setState({
             timerId : setInterval(
                 () => this.nextSlide(),
-                1500)
+                3000)
         })
     }
     onHover = () =>{
